@@ -382,6 +382,9 @@ a:hover>b {
 
 /* start section container*/
 
+
+/* start main  */
+
 .container {
     width: 100%;
     margin-top: 50px;
@@ -412,4 +415,265 @@ a:hover>b {
 }
 
 
+/* end main */
+
+
+/* start sidebar */
+
+.sidebar {
+    float: right;
+    width: calc(calc(100%/3) - 50px);
+    margin-left: 25px;
+}
+
+.sidebar-item {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-list li {
+    padding: 15px 0;
+    background-color: #F9B500 !important;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+}
+
+.popular-post {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.popular-post-img {
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+
+.popular-post-title {
+    float: right;
+    width: calc(100% - 120px);
+    margin-left: 20px;
+}
+
+.popular-post-title h3 b a {
+    font-size: 20px;
+}
+
+.subscribe-form {
+    margin-top: 20px;
+    border: none;
+}
+
+.subscribe-form-text {
+    padding: 13px 58px 13px 13px;
+    float: left;
+    border: 1px solid #F9B500;
+    outline: none;
+    width: calc(100% - 73px);
+}
+
+.subscribe-form-text:focus {
+    outline-color: #F9B500;
+}
+
+.subscribe-form button {
+    float: right;
+    width: 45px;
+    height: 41px;
+    border: none;
+    text-align: center;
+    background-color: #F9B500;
+    margin-top: -42px;
+    margin-right: 1px;
+}
+
+.subscribe-form button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+@media (max-width:991.98px) {
+    .main {
+        width: 100%;
+        float: none;
+    }
+    .sidebar {
+        width: 100%;
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:575.98px) {
+    .main-news-w-50 {
+        width: 100%;
+        float: none;
+    }
+}
+
+
+/* end sidebar */
+
+
 /* end section container */
+
+
+/* start section footer  */
+
+.footer {
+    background-color: #191919;
+}
+
+.footer-row {
+    width: 100%;
+    background-color: rgba(25, 25, 25, 0.7);
+}
+
+.bg-map {
+    background-image: url("../images/map.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer-col {
+    float: left;
+    width: calc(calc(100%/3) - 30px);
+    margin-right: 30px;
+}
+
+.footer-logo {
+    float: left;
+    height: 24px;
+    margin: 28px 0;
+}
+
+.footer-p {
+    color: #ccc;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.footer-p a {
+    color: #ccc;
+    font-size: 16px;
+    transition: color 0.4s;
+}
+
+.footer-p a:hover {
+    color: #F9B500;
+}
+
+.footer-padding-20px {
+    padding: 20px 0;
+}
+
+.footer-section-title {
+    color: #F9B500;
+    padding: 30px 0;
+}
+
+.footer-section-link-item {
+    margin-bottom: 20px;
+}
+
+.footer-line {
+    background-color: rgba(170, 170, 170, 0.2);
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+.footer-section-link-item a {
+    color: #ccc;
+    font-size: 14px;
+    transition: color 0.4s;
+}
+
+.footer-section-link-item a:hover {
+    color: #F9B500;
+}
+
+.footer-section-link-item p {
+    color: #ccc;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.footer-menu {
+    float: left;
+    list-style: none;
+    width: 50%;
+    padding: 0;
+    text-align: left;
+}
+
+.footer-menu li {
+    display: inline-block;
+    padding: 0 20px 20px 0;
+}
+
+.footer-menu li a {
+    color: #ccc;
+    transition: color 0.4s;
+}
+
+.footer-menu li a:hover {
+    color: #F9B500;
+}
+
+.footer-social-network {
+    float: right;
+    list-style: none;
+    padding: 0;
+    width: 50%;
+    text-align: right;
+}
+
+.footer-social-network li {
+    display: inline-block;
+    padding: 0 0px 20px 20px;
+}
+
+.footer-social-network li a {
+    color: #333;
+}
+
+.footer-social-network li a i {
+    transition: color 0.4s;
+}
+
+.footer-social-network li a i:hover {
+    color: #F9B500
+}
+
+@media (max-width:575.98px) {
+    .footer-col {
+        float: none;
+        padding: 15px;
+        width: calc(100% - 30px);
+        margin-right: 0;
+    }
+    .footer-menu {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-menu li {
+        padding: 10px;
+    }
+    .footer-social-network {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .footer-social-network li {
+        padding: 10px;
+    }
+}
+
+
+/* end section footer  */
